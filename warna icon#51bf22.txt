@@ -1,0 +1,10 @@
+#51bf22
+warna icon https://lucide.dev/icons/house
+
+Jenis	Warna
+Dashboard	Hijau
+Berita	Biru
+Pengguna	Ungu
+Pengajuan	Oranye
+Laporan	Merah
+Pengaturan	Abu-abu
