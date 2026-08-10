@@ -1,0 +1,56 @@
+/* Design */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+ID:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&family=Yuyu&display=swap');
+
+
+:root{
+
+    --primary:#5aa71b;
+    --primary-dark:#407613;
+    --primary-light:#aae977;
+    --background:#f8fafc;
+    --text:#1f2937;
+    --radius:18px;
+
+}
+
+body{
+    font-family:Poppins,sans-serif;
+    background:var(--background);
+}
+
+.card-halal{
+    border-radius:24px;
+    background:white;
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.btn-halal{
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-dark)
+    );
+
+    color:white;
+    border-radius:16px;
+    transition:.3s;
+
+}
+
+.btn-halal:hover{
+    transform:translateY(-2px);
+
+}
+
+.input-halal{
+    border-radius:16px;
+}
+
+.title-halal{
+    color:var(--primary-dark);
+    font-weight:700;
+
+}
